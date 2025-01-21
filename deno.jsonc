@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "start": "deno run --env-file --allow-env --allow-read --allow-write --allow-net --watch  main.ts"
+    "start": "deno run --allow-env --allow-read --allow-net main.ts",
+    "dev": "deno run --watch --env-file --allow-env --allow-read --allow-net main.ts"
   },
   "imports": {
     "discordeno": "npm:discordeno@^21.0.0"
