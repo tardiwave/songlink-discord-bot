@@ -17,7 +17,7 @@ export type Platform =
   | 'spinrilla'
   | 'audius'
 
-export type Response = {
+export type SongLinkResponse = {
   entityUniqueId: string
   userCountry: string
   pageUrl: string

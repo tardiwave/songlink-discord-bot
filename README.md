@@ -8,6 +8,7 @@ When you post a song URL of Amazon Music, Apple Music, or Spotify, the bot adds 
 get a link to YouTube.
 
 ## Local Development
+
 1. Install [deno](https://deno.land)
 2. Create a `.env` file with:
    ```env
@@ -18,6 +19,7 @@ get a link to YouTube.
 4. Run `deno task start` for production
 
 ## Deployment
+
 1. Create a new project on [Deno Deploy](https://deno.com/deploy)
 2. Link your GitHub repository
 3. Configure the following environment variables in Deno Deploy:
