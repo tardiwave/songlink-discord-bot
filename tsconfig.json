@@ -1,7 +1,0 @@
-{
-    "compilerOptions": {
-        "experimentalDecorators": true,
-        "isolatedModules": false,
-        "importsNotUsedAsValues": "remove"
-    }
-}
